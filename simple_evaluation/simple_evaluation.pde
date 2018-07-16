@@ -307,7 +307,7 @@ Move getMove(int[][] b, int te)
       {
         int newScore = evaluateMove(b, te, x, y);
         // もしも新しい手の価値のほうが、今覚えている手の価値より高いならば
-        if(  )
+        if( currentScore<newScore )
         {
           // その手を覚え
           result.x = x;
